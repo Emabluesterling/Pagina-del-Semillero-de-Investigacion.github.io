@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#BigContainer{
+    width: 100%;
+    background-color: #e3f2fd;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+
+    gap:20px;
+
+
+
+
+
+}
+header{
+    display: flex;
+    grid-area: header;
+    background-image: url(../IMG/estudiantesBG.jpg);
+    background-size: cover;
+
+    #loguito{
+        width: auto;
+        max-height: 100px;
+        border-radius: 50px;
+}
+}
+
+main{
+    grid-area: main;
+    display: flex;
+    gap: 20px;
+
+    .card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.marinosGrupo{
+    background-color: rgb(20, 148, 131);
+}
+.marinosTitle{
+    border: solid rgb(20, 148, 131);
+    color: rgb(20, 148, 131);
+}
+
+.virusGrupo{
+    background-color: rgb(118, 20, 148);
+}
+.virusTitle{
+    border: solid rgb(118, 20, 148);
+    color: rgb(118, 20, 148);
+}
+
+.textoBordesResultado1{
+    border: solid;
+    color: rgb(191, 111, 223);
+}
+.textoBordesResultado2{
+    border: solid;
+    color: rgb(224, 116, 201);
+}
+
+.fondoBtnResultado1{
+    background-color: rgb(191, 111, 223);
+    color: white;
+    font-size: 15px;
+
+}
+.fondoBtnResultado2{
+    background-color: rgb(224, 116, 201);
+    color: white;
+    font-size: 15px;
+
+}
+}
+
+
+
+footer{
+    display: flex;
+    grid-area: footer;
+    justify-content: center;
+    align-items: center;
+
+    ul{
+        list-style: none;
+    }
+
+    #cajitaIconos{
+        border-radius: 20px 50px;
+    }
+}
+
