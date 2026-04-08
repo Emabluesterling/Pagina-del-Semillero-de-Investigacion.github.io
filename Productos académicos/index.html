@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos Académicos</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <div id="BigContainer">
+
+        <header class="container-fluid">
+            <div class="row align-items-center justify-content-center">
+
+                <div class="col-4 col-sm-2"><img id="loguito" class="img-fluid" src="../IMG/semilleroLogo.png" alt="">
+                </div>
+
+                <div class="col-8 col-sm-7">
+                    <h1 class="text-center fw-bold text-primary border border-primary bg-light mt-1 p-1">Semillero de
+                        investigación EAS</h1>
+                </div>
+
+                <div class="col-12 col-sm-2">
+                    <nav class="navbar">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler bg-light border-radius border-primary ms-auto" type="button"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                                aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-header bg-primary bg-opacity-10">
+                                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú del Semillero</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="../Eventos/index.html">Eventos y Noticias</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="../Equipos y Resultados/index.html">Equipos de
+                                                trabajo y Resultados de
+                                                investigación</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="../Productos académicos/index.html">Productos
+                                                academicos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="../Galería de img/index.html">Galería de
+                                                imágenes</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="../Contacto/index.html">Contacto</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <img class="animate__animated animate__shakeY animate__slow animate__infinite img-fluid"
+                                                src="../IMG/mascota.png" alt="">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="col-12 mt-1">
+                    <h3 class="text-center text-primary border border-primary bg-light p-1">Explorando la innovación y
+                        la investigación en el ámbito académico</h3>
+                </div>
+
+                <div class="col-6 col-md-5 col-lg-4 bg-light ms-1 me-auto border border-primary align-items-center d-flex">
+                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol id="migajas" class="breadcrumb align-items-center mb-0">
+                            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Productos Académicos</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-------SECCION MAIN ------------------------------------------------->
+        <main class="container-fluid bg-primary bg-opacity-10 p-3">
+            <div class="row g-4">
+
+                <section class="col-12">
+                    <div class="row justify-content-center g-3">
+                        <!------------------Libros -->
+                        <h3 class="col-12 border border-primary bg-light text-primary rounded-5 p-1 text-center">
+                            Libros de interés</h3>
+
+                        <!-- CARD 1 -->
+                        <article class="col-10 col-sm-6 col-md-3">
+                            <div class="card rounded-5 h-100 animate__animated animate__rollIn">
+
+                                <div class="card text-bg-dark">
+                                    <img src="./IMG/libroBase.png" class="card-img-top rounded-top-5" alt="">
+                                    <div class="card-img-overlay justify-content-center align-items-center d-flex">
+                                        <h5 class="card-title fw-bold">Libro 1</h5>
+                                    </div>
+                                </div>
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Arquitecturas del Futuro: Innovación en Ingeniería de
+                                        Sistemas</h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-center"><i class="bi bi-person-circle"></i> Daniel
+                                        Felipe Avila Maldonado
+                                    </li>
+                                    <li class="list-group-item text-center"><i class="bi bi-calendar-date"></i>
+                                        31/12/2025</li>
+                                </ul>
+                                <div class="card-body text-center">
+                                    <a href="./PDFS_web/PRIMER ENTREGABLE 20.pdf" download="PDF Académico"
+                                        class="btn btn-primary">Descargar</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- CARD 2 -->
+                        <article class="col-10 col-sm-6 col-md-3">
+                            <div class="card rounded-5 h-100 animate__animated animate__rollIn">
+                                <div class="card text-bg-dark">
+                                    <img src="./IMG/libroBase.png" class="card-img-top rounded-top-5" alt="">
+                                    <div class="card-img-overlay justify-content-center align-items-center d-flex">
+                                        <h5 class="card-title fw-bold">Libro 2</h5>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Código y Pensamiento: Fundamentos para la Era Digital</h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-center"><i class="bi bi-person-circle"></i> Keyner
+                                        Adrian Astudillo Torres
+                                    </li>
+                                    <li class="list-group-item text-center"><i class="bi bi-calendar-date"></i>
+                                        14/11/2025</li>
+                                </ul>
+                                <div class="card-body text-center">
+                                    <a href="./PDFS_web/PRIMER ENTREGABLE 20.pdf" download="PDF Académico"
+                                        class="btn btn-primary">Descargar</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- CARD 3 -->
+                        <article class="col-10 col-sm-6 col-md-3">
+                            <div class="card rounded-5 h-100 animate__animated animate__rollIn">
+                                <div class="card text-bg-dark">
+                                    <img src="./IMG/libroBase.png" class="card-img-top rounded-top-5" alt="">
+                                    <div class="card-img-overlay justify-content-center align-items-center d-flex">
+                                        <h5 class="card-title fw-bold">Libro 3</h5>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Algoritmos que Transforman el Mundo</h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-center"><i class="bi bi-person-circle"></i>
+                                        Madeleine Gissell Padilla Agudelo
+                                    </li>
+                                    <li class="list-group-item text-center"><i class="bi bi-calendar-date"></i>
+                                        27/09/2025</li>
+                                </ul>
+                                <div class="card-body text-center align-items-center justify-content-center d-flex">
+                                    <a href="./PDFS_web/PRIMER ENTREGABLE 20.pdf" download="PDF Académico"
+                                        class="btn btn-primary">Descargar</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- CARD 4 -->
+                        <article class="col-10 col-sm-6 col-md-3">
+                            <div class="card rounded-5 h-100 animate__animated animate__rollIn">
+                                <div class="card text-bg-dark">
+                                    <img src="./IMG/libroBase.png" class="card-img-top rounded-top-5" alt="">
+                                    <div class="card-img-overlay justify-content-center align-items-center d-flex">
+                                        <h5 class="card-title fw-bold">Libro 4</h5>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Redes Inteligentes y el Futuro de la Conectividad</h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-center"><i class="bi bi-person-circle"></i> Emanuel
+                                        Armando Sterling Jara
+                                    </li>
+                                    <li class="list-group-item text-center"><i class="bi bi-calendar-date"></i>
+                                        7/09/2025</li>
+                                </ul>
+                                <div class="card-body text-center">
+                                    <a href="./PDFS_web/PRIMER ENTREGABLE 20.pdf" download="PDF Académico"
+                                        class="btn btn-primary">Descargar</a>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </section>
+                <!----------------------------------Articulos -->
+                <h3 class="col-12 border border-primary bg-light text-primary rounded-5 p-1 text-center"> Artículos
+                    publicados</h3>
+                <section class="col-12">
+                    <div class="row justify-content-center g-4">
+
+                        <!-- CARD 1 -->
+                        <article class="col-10 col-sm-6 col-md-3">
+                            <div class="card rounded-5 h-100" data-aos="flip-down">
+                                <div class="card text-bg-dark">
+                                    <img src="./IMG/articuloBase.png" class="card-img-top rounded-top-5" alt="">
+                                    <div class="card-img-overlay justify-content-center align-items-start d-flex">
+                                        <h5 class="card-title fw-bold">Articulo 1</h5>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Impacto de la Inteligencia Artificial en la Optimización de
+                                        Procesos
+                                    </h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-center"><i class="bi bi-person-circle"></i> Simón
+                                        Andres Calderon Lara
+                                    </li>
+                                    <li class="list-group-item text-center"><i class="bi bi-calendar-date"></i>
+                                        11/06/2023</li>
+                                </ul>
+                                <div class="card-body text-center">
+                                    <a href="./PDFS_web/PRIMER ENTREGABLE 20.pdf" download="PDF Académico"
+                                        class="btn btn-primary">Descargar</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- CARD 2 -->
+                        <article class="col-10 col-sm-6 col-md-3">
+                            <div class="card rounded-5 h-100" data-aos="flip-down">
+                                <div class="card text-bg-dark">
+                                    <img src="./IMG/articuloBase.png" class="card-img-top rounded-top-5" alt="">
+                                    <div class="card-img-overlay justify-content-center align-items-start d-flex">
+                                        <h5 class="card-title fw-bold">Articulo 2</h5>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Tendencias Emergentes en el Desarrollo de Software
+                                    </h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-center"><i class="bi bi-person-circle"></i> Danilo
+                                        Monte Carlo Reyes
+                                    </li>
+                                    <li class="list-group-item text-center"><i class="bi bi-calendar-date"></i>
+                                        26/04/2023</li>
+                                </ul>
+                                <div class="card-body text-center align-items-center justify-content-center d-flex">
+                                    <a href="./PDFS_web/PRIMER ENTREGABLE 20.pdf" download="PDF Académico"
+                                        class="btn btn-primary">Descargar</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- CARD 3 -->
+                        <article class="col-10 col-sm-6 col-md-3">
+                            <div class="card rounded-5 h-100" data-aos="flip-down">
+                                <div class="card text-bg-dark">
+                                    <img src="./IMG/articuloBase.png" class="card-img-top rounded-top-5" alt="">
+                                    <div class="card-img-overlay justify-content-center align-items-start d-flex">
+                                        <h5 class="card-title fw-bold">Articulo 3</h5>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Ciberseguridad: Retos y Soluciones en la Actualidad Digital
+                                    </h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-center"><i class="bi bi-person-circle"></i> Alberto
+                                        Camilo Araque Suares
+                                    </li>
+                                    <li class="list-group-item text-center"><i class="bi bi-calendar-date"></i>
+                                        23/05/2023</li>
+                                </ul>
+                                <div class="card-body text-center">
+                                    <a href="./PDFS_web/PRIMER ENTREGABLE 20.pdf" download="PDF Académico"
+                                        class="btn btn-primary">Descargar</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- CARD 4 -->
+                        <article class="col-10 col-sm-6 col-md-3">
+                            <div class="card rounded-5 h-100" data-aos="flip-down">
+                                <div class="card text-bg-dark">
+                                    <img src="./IMG/articuloBase.png" class="card-img-top rounded-top-5" alt="">
+                                    <div class="card-img-overlay justify-content-center align-items-start d-flex">
+                                        <h5 class="card-title fw-bold">Articulo 4</h5>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Automatización y Machine Learning en Sistemas Modernos
+                                    </h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-center"><i class="bi bi-person-circle"></i> Kevin
+                                        Santiago Osorio Morales
+                                    </li>
+                                    <li class="list-group-item text-center"><i class="bi bi-calendar-date"></i>
+                                        03/03/2023</li>
+                                </ul>
+                                <div class="card-body text-center">
+                                    <a href="./PDFS_web/PRIMER ENTREGABLE 20.pdf" download="PDF Académico"
+                                        class="btn btn-primary">Descargar</a>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </section>
+                <!----------------------------------Informes -->
+                <h3 class="col-12 border border-primary bg-light text-primary rounded-5 p-1 text-center"> Informes o
+                    Ponencias</h3>
+                <section class="col-12">
+                    <div class="row justify-content-center g-4">
+
+                        <!-- CARD 1 -->
+                        <article class="col-10 col-sm-6 col-md-3">
+                            <div class="card rounded-5 h-100" data-aos="fade-down" data-aos-easing="linear"
+                                data-aos-duration="1000">
+                                <div class="card text-bg-dark">
+                                    <img src="./IMG/informeBase.png" class="card-img-top rounded-top-5" alt="">
+                                    <div class="card-img-overlay justify-content-center align-items-start d-flex">
+                                        <h5 class="card-title fw-bold">Informe 1</h5>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Análisis de Eficiencia en Sistemas Automatizados
+                                    </h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-center"><i class="bi bi-person-circle"></i> Larry
+                                        Antonio Suarez Correa
+                                    </li>
+                                    <li class="list-group-item text-center"><i class="bi bi-calendar-date"></i>
+                                        21/08/2022</li>
+                                </ul>
+                                <div class="card-body text-center align-items-center justify-content-center d-flex">
+                                    <a href="./PDFS_web/PRIMER ENTREGABLE 20.pdf" download="PDF Académico"
+                                        class="btn btn-primary">Descargar</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- CARD 2 -->
+                        <article class="col-10 col-sm-6 col-md-3">
+                            <div class="card rounded-5 h-100" data-aos="fade-down" data-aos-easing="linear"
+                                data-aos-duration="1000">
+                                <div class="card text-bg-dark">
+                                    <img src="./IMG/informeBase.png" class="card-img-top rounded-top-5" alt="">
+                                    <div class="card-img-overlay justify-content-center align-items-start d-flex">
+                                        <h5 class="card-title fw-bold">Informe 2</h5>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Evaluación de Tecnologías Aplicadas en Entornos Académicos
+                                    </h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-center"><i class="bi bi-person-circle"></i> Laura
+                                        Vanessa Carrillo Mota
+                                    </li>
+                                    <li class="list-group-item text-center"><i class="bi bi-calendar-date"></i>
+                                        31/07/2022</li>
+                                </ul>
+                                <div class="card-body text-center">
+                                    <a href="./PDFS_web/PRIMER ENTREGABLE 20.pdf" download="PDF Académico"
+                                        class="btn btn-primary">Descargar</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- CARD 3 -->
+                        <article class="col-10 col-sm-6 col-md-3">
+                            <div class="card rounded-5 h-100" data-aos="fade-down" data-aos-easing="linear"
+                                data-aos-duration="1000">
+                                <div class="card text-bg-dark">
+                                    <img src="./IMG/informeBase.png" class="card-img-top rounded-top-5" alt="">
+                                    <div class="card-img-overlay justify-content-center align-items-start d-flex">
+                                        <h5 class="card-title fw-bold">Informe 3</h5>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Resultados de Implementación de Modelos Inteligentes
+                                    </h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-center"><i class="bi bi-person-circle"></i> Miguel
+                                        Angel Cuniberti Rojas
+                                    </li>
+                                    <li class="list-group-item text-center"><i class="bi bi-calendar-date"></i>
+                                        01/04/2022</li>
+                                </ul>
+                                <div class="card-body text-center align-items-center justify-content-center d-flex">
+                                    <a href="./PDFS_web/PRIMER ENTREGABLE 20.pdf" download="PDF Académico"
+                                        class="btn btn-primary">Descargar</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- CARD 4 -->
+                        <article class="col-10 col-sm-6 col-md-3">
+                            <div class="card rounded-5 h-100" data-aos="fade-down" data-aos-easing="linear"
+                                data-aos-duration="1000">
+                                <div class="card text-bg-dark">
+                                    <img src="./IMG/informeBase.png" class="card-img-top rounded-top-5" alt="">
+                                    <div class="card-img-overlay justify-content-center align-items-start d-flex">
+                                        <h5 class="card-title fw-bold">Informe 4</h5>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Diagnóstico y Mejora de Procesos Tecnológicos mediante IA
+                                    </h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-center"><i class="bi bi-person-circle"></i> Emanuel
+                                        Armando Sterling Jara
+                                    </li>
+                                    <li class="list-group-item text-center"><i class="bi bi-calendar-date"></i>
+                                        12/04/2022</li>
+                                </ul>
+                                <div class="card-body text-center">
+                                    <a href="./PDFS_web/PRIMER ENTREGABLE 20.pdf" download="PDF Académico"
+                                        class="btn btn-primary">Descargar</a>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </section>
+
+            </div>
+        </main>
+        <!-------------------------- Footer ----------->
+        <footer class="container-fluid bg-primary p-0">
+            <div class="row w-100 border border-primary justify-content-center align-items-center ps-1 pe-1">
+                <ul class="col-11 col-sm-8 list-unstyled mb-1 mt-1 p-0">
+                    <li id="cajitaIconos" class="d-flex justify-content-center align-items-center gap-4 bg-light">
+                        <a href="https://www.whatsapp.com" class="text-decoration-none text-success text-center">
+                            <i class="bi bi-whatsapp"></i>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a href="https://www.facebook.com" class="text-decoration-none text-primary text-center">
+                            <i class="bi bi-facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="https://www.instagram.com" class="text-decoration-none text-danger text-center">
+                            <i class="bi bi-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="col-12 text-center bg-light mb-0">
+                    &copy; 2026 Semillero de Investigación EAS. Todos los derechos reservados.
+                </p>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <script src="../JS/bootstrap.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+
+</html>
